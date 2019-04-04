@@ -1,4 +1,5 @@
 arch-install-scripts
+bind-tools
 curl
 darkhttpd
 dialog
