@@ -19,10 +19,10 @@ lsscsi
 mtools
 nano
 ndisc6
-netcat-openbsd
 nfs-utils
 ntfs-3g
 ntp
+openbsd-netcat
 openssh
 openssl
 parted
