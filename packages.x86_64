@@ -1,4 +1,5 @@
 arch-install-scripts
+bash-completion
 bind-tools
 curl
 darkhttpd
