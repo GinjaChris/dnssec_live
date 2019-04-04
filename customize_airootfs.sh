@@ -1,5 +1,7 @@
 #!/bin/bash
 
+loadkeys uk
+
 set -e -u
 
 sed -i 's/#\(en_GB\.UTF-8\)/\1/' /etc/locale.gen
@@ -23,5 +25,4 @@ systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 systemctl enable haveged
 systemctl enable unbound
-loadkeys uk
 ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
