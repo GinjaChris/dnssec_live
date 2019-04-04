@@ -24,3 +24,4 @@ systemctl set-default multi-user.target
 systemctl enable haveged
 systemctl enable unbound
 loadkeys uk
+ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
