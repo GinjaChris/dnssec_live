@@ -10,6 +10,7 @@ dosfstools
 ethtool
 exfat-utils
 f2fs-tools
+glances
 gptfdisk
 grub
 haveged
