@@ -1,7 +1,5 @@
 #!/bin/bash
 
-loadkeys uk
-
 set -e -u
 
 sed -i 's/#\(en_GB\.UTF-8\)/\1/' /etc/locale.gen
