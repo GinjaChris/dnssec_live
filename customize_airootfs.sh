@@ -24,3 +24,4 @@ systemctl set-default multi-user.target
 systemctl enable haveged
 systemctl enable unbound
 ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
+rm -f /root/install.txt
