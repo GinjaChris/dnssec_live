@@ -1,6 +1,6 @@
 cd ~ &&
 mkdir -p ~/archlive &&
-cp -r /usr/share/archiso/configs/profile/ archlive &&
+cp -r /usr/share/archiso/configs/releng/ archlive &&
 cd ~/archlive/releng/ &&
 echo "LANG=en_GB.UTF-8" >  airootfs/etc/locale.conf  &&
 echo "DNSSEC-live" > airootfs/etc/hostname &&
