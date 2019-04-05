@@ -1,3 +1,4 @@
+#read https://wiki.archlinux.org/index.php/archiso
 cd ~ &&
 mkdir -p ~/archlive &&
 cp -r /usr/share/archiso/configs/releng/ archlive &&
@@ -30,5 +31,5 @@ mkdir -p airootfs/etc/sysctl.d/ &&
 echo "net.ifnames=0" > airootfs/etc/sysctl.d/99-sysctl.conf &&
 rm airootfs/root/install.txt &&
 sync && sleep 1 &&
-#build the ISO!  This will take a while.....If anything goes wrong, or you make changes to any of the files and need to rebuild the ISO, remove the work folder with "rm -v work/build.make_*" and run build.sh script again 
+#build the ISO!  This will take a while.....If anything goes wrong, or you make changes to any of the files and need to rebuild the ISO, do rm ~/archlive and start again 
 ./build.sh  -v 
