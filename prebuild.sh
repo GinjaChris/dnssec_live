@@ -2,7 +2,6 @@ cd ~
 mkdir -p ~/archlive
 cp -r /usr/share/archiso/configs/profile/ archlive
 cd ~/archlive/releng/
-rm airootfs/root/install.txt
 echo "LANG=en_GB.UTF-8" >  airootfs/etc/locale.conf 
 echo "DNSSEC-live" > airootfs/etc/hostname
 #"packages.x86_64" is the packages that will be installed on the liveCD (in addition to everything in the "base" category)
@@ -28,6 +27,7 @@ curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/syslinux.cf
 rm syslinux/archiso_pxe.cfg
 #this has an entry to use old device naming (like "eth0")
 echo "net.ifnames=0" > airootfs/etc/sysctl.d/99-sysctl.conf
+rm airootfs/root/install.txt
 sync && sleep 1
 #build the ISO!  This will take a while.....If anything goes wrong, or you make changes to any of the files and need to rebuild the ISO, remove the work folder with "rm -v work/build.make_*" and run build.sh script again 
 ./build.sh  -v 
