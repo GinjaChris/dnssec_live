@@ -26,6 +26,7 @@ curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/archiso_sys
 curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/syslinux.cfg -o syslinux/syslinux.cfg &&
 rm syslinux/archiso_pxe.cfg &&
 #this has an entry to use old device naming (like "eth0")
+mkdir -p airootfs/etc/sysctl.d/ && 
 echo "net.ifnames=0" > airootfs/etc/sysctl.d/99-sysctl.conf &&
 rm airootfs/root/install.txt &&
 sync && sleep 1 &&
