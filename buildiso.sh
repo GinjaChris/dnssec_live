@@ -19,7 +19,6 @@ curl https://www.internic.net/domain/named.cache -o airootfs/etc/unbound/root.hi
 #add trust for root zone
 curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/trusted-key.key -o airootfs/etc/unbound/trusted-key.key &&
 #set bootup files
-curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/ntt.png -o syslinux/splash.png &&
 curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/mkinitcpio.conf -o ./mkinitcpio.conf &&
 curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/archiso.cfg -o syslinux/archiso.cfg &&
 curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/archiso_head.cfg -o syslinux/archiso_head.cfg &&
