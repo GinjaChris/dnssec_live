@@ -25,9 +25,10 @@ curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/archiso_hea
 curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/archiso_sys.cfg -o syslinux/archiso_sys.cfg &&
 curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/syslinux.cfg -o syslinux/syslinux.cfg &&
 rm syslinux/archiso_pxe.cfg &&
-#this has an entry to use old device naming (like "eth0")
+#set system to use old network device naming (like "eth0")
 mkdir -p airootfs/etc/sysctl.d/ && 
 echo "net.ifnames=0" > airootfs/etc/sysctl.d/99-sysctl.conf &&
+#remove install.txt
 rm airootfs/root/install.txt &&
 sync && sleep 1 &&
 #build the ISO using the official archiso build script!  This will take a while.....If anything goes wrong, or you make changes to any of the files and need to rebuild the ISO, do rm ~/archlive and start again 
