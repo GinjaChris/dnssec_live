@@ -25,3 +25,4 @@ systemctl enable haveged
 systemctl enable unbound
 ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
 rm -f /root/install.txt
+curl -o /etc/unbound/root.hints https://www.internic.net/domain/named.cache
