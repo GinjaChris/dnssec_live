@@ -11,7 +11,8 @@ How to build DNSSEC enabled live CD
 Start by booting into installed arch linux environment.   
 Install anarchy linux or archlabs if you don't know what you are doing!
 
- #su   ----> make sure you do everything as root!
+Make sure you do everything as root:
+#su   
 
 #pacman -Syu archiso
 
@@ -32,8 +33,8 @@ run it:
 If the build works, the iso will be output to ~/archlive/releng/out/archlinux-YYYY-MM-DD-x86_64.iso.  Will likely be around 600MB in size.
 
 
-But what if I don't have an Arch linux system?
-==============================================
+But what if I don't have an installed Arch linux system?
+========================================================
 
 An ISO will be available soon!
 
