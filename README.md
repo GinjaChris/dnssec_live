@@ -53,6 +53,8 @@ Maybe set your DHCP server to always give out the same IP to the MAC address of 
 
 - Point your clients to use the new server for DNS.  You may wish to modify your DHCP server to provide the new IP of your DNS server to your clients.
 
+- It is a live medium so if you reboot any changes you made are lost
+
 - We use a UK key layout by default
 
 - There's no remote access enabled (SSH etc) by default
