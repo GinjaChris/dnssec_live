@@ -48,7 +48,12 @@ Booting & using
 - unbound DNS server will be running and configured for DNSSEC resolution
 
 - The server should pick up an IP from dhcp.  If not, run "dhcpcd" or add a static IP address (i suggest using netctl).
-
 Or set your DHCP server to always give out the same IP to the MAC address of your new VM.
 
 - Point your clients to use the new server for DNS.  You may wish to modify your DHCP server to provide the new IP of your DNS server to your clients.
+
+- We use a UK key layout by default
+
+- There's no remote access enabled (SSH etc) by default
+
+- https://wiki.archlinux.org/ is an excellent resource
