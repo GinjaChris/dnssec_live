@@ -1,7 +1,7 @@
 # dnssec_live
 
 This is a bash script to build a DNSSEC enabled recursive and caching DNS server.  
-This script is free for personal use only.  It is not permitted for business use under any circumstances. 
+This script is free for non-commercial personal use only.  It is not permitted for business use under any circumstances. 
 
 
 How to build DNSSEC enabled live CD
