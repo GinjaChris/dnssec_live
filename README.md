@@ -36,7 +36,7 @@ If the build works, the iso will be output to ~/archlive/releng/out/archlinux-YY
 But what if I don't have an installed Arch linux system?
 ========================================================
 
-An ISO can be downloaded from https://www.dropbox.com/s/e3rl5uq4mpvyk2i/DNSSEC-live_v0.4.iso?dl=1
+A pre-built DNSSEC_live ISO can be downloaded from https://www.dropbox.com/s/e3rl5uq4mpvyk2i/DNSSEC-live_v0.4.iso?dl=1
 
 Run it in a VM.
 
