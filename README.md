@@ -18,7 +18,7 @@ Make sure you do everything as root:
 
 #cd ~
 
-then download the install script:
+then download the build script:
 
 #curl https://raw.githubusercontent.com/GinjaChris/dnssec_live/master/buildiso.sh -o ./buildiso.sh
 
