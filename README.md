@@ -44,21 +44,23 @@ Run it in a VM.
 Booting & using
 ===============
 
-- Start a VM and boot from the newly created ISO
+- Start a VM and boot from the newly created ISO.  No HDD required.
 
-- You will be auto-logged in to root account
+- You will be auto-logged in to root account.
 
-- unbound DNS server will be running and configured for DNSSEC resolution
+- unbound DNS server will be running and configured for DNSSEC resolution.
 
 - The server should pick up an IP from dhcp.  If not, run "dhcpcd" or add a static IP address (I suggest using netctl).
 Maybe set your DHCP server to always give out the same IP to the MAC address of your new VM.
 
 - Point your clients to use the new server for DNS.  You may wish to modify your DHCP server to provide the new IP of your DNS server to your clients.
 
-- It is a live medium so if you reboot any changes you made are lost
+- Internet connectivity is required on port 53 UDP (and ideally TCP too) for DNS resolution.
 
-- We use a UK key layout by default
+- It is a live medium so if you reboot any changes you made are lost.
 
-- There's no remote access enabled (SSH etc) by default
+- We use a UK key layout by default.
 
-- https://wiki.archlinux.org/ is an excellent resource
+- There's no remote access enabled (SSH etc) by default.
+
+- https://wiki.archlinux.org/ is an excellent resource.
