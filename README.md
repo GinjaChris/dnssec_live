@@ -55,7 +55,7 @@ Maybe set your DHCP server to always give out the same IP to the MAC address of 
 
 - Point your clients to use the new server for DNS.  You may wish to modify your DHCP server to provide the new IP of your DNS server to your clients.
 
-- Internet connectivity is required on port 53 UDP (and ideally TCP too) for DNS resolution.
+- Internet connectivity is required to destination port 53 UDP (and ideally TCP too) for DNS resolution.
 
 - It is a live medium so if you reboot any changes you made are lost.
 
