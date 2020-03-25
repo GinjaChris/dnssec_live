@@ -1,7 +1,6 @@
 # dnssec_live
 
 This is a bash script to build a DNSSEC enabled recursive and caching DNS server.  
-This script is free for non-commercial personal use only.  It is not permitted for business use under any circumstances. 
 
 
 How to build DNSSEC enabled live CD
@@ -57,7 +56,7 @@ Maybe set your DHCP server to always give out the same IP to the MAC address of 
 
 - Internet connectivity is required to destination port 53 UDP (and ideally TCP too) for DNS resolution.
 
-- It is a live medium so if you reboot any changes you made are lost.
+- It is a live medium so if you reboot any changes you made are lost.  To avoid this, install to disk or take a snapshot.
 
 - We use a UK key layout by default.
 
