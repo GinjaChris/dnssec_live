@@ -1,3 +1,6 @@
+#BROKEN!  Looks like Arch made some changes a while back that broke this.   I'll look into fixing it and maybe just have a downloadable ISO in the future.
+#In the meantime, don't use this!
+
 # dnssec_live
 
 This is a bash script to build a DNSSEC enabled recursive and caching DNS server.  
