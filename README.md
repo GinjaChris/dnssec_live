@@ -8,7 +8,7 @@ How to build DNSSEC enabled live CD
 *Requires an installed Arch linux system to work from!*
 
 Start by booting into installed arch linux environment.   
-Install anarchy linux or Majaro linux if you don't know what you are doing!
+Install anarchy linux or Manjaro linux if you don't know what you are doing!
 
 Make sure you do everything as root:
 #su   
