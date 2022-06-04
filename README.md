@@ -11,6 +11,7 @@ Start by booting into installed arch linux environment.
 Install anarchy linux or Manjaro linux if you don't know what you are doing!
 
 Make sure you do everything as root:
+
 #su   
 
 #pacman -Syu archiso
